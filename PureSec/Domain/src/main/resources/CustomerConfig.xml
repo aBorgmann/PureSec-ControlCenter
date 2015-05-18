@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<businessCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="BusinessCustomer.xsd">
+	<customer>
+		<URL>http://www.alkenborgmann.de</URL>
+		<Name>Alken Borgmann</Name>
+	</customer>
+	<customer>
+		<URL>http://www.fabianhoffman.com</URL>
+		<Name>Fabian Hoffmann</Name>
+	</customer>
+</businessCustomer>
