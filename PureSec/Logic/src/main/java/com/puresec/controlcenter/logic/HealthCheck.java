@@ -32,11 +32,11 @@ public class HealthCheck {
 	public static void main(String[] args) {
 		Map<String, Boolean> statusResults = new HashMap<String, Boolean>();
 		for (String link : registredCustomerLinks) {
-//			boolean statusResult = getStatus(link);
-//			statusResults.put(link, statusResult);
-			getHTTPHeader(link);
+			boolean statusResult = getStatus(link);
+			statusResults.put(link, statusResult);
+//			getHTTPHeader(link);
 		}
-//		System.out.println(statusResults);
+		System.out.println(statusResults);
 	}
 
 	private static boolean getStatus(String link) {
